@@ -1,6 +1,9 @@
 from math import pi
 import math
 
+# import variables
+# from variables import counter
+
 # pi = 3.16
 # print(pi)
 # print(math.pi)
