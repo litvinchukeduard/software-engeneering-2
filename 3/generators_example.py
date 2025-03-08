@@ -22,6 +22,12 @@ def search_python_files_generator():
         yield file
 
 
+def read_file(path: str):
+    with open(path) as file:
+       for line in file:
+           print(line)
+
+
 # value_generator = generate_random_values(10)
 # print(next(value_generator))
 # print(next(value_generator))
