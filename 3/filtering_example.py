@@ -27,6 +27,11 @@ def find_b_words_comprehensions(word_list: list[str]) -> list[str]:
 
 print(find_b_words_comprehensions(['Apples', 'Butter', 'Bread', 'Wine']))
 
+
+# my_list = [5, 4, 3, 2, 1]
+my_list = ['Apples', 'Butter', 'Bread', 'Wine']
+print(sorted(my_list, key=lambda x: len(x)))
+print(sorted(my_list, key=len))
 # my_list = [1, 2, 3]
 # print({x**2 for x in my_list})
 
