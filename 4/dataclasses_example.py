@@ -27,6 +27,9 @@ class ProductFromOutsideError(VendingMachineError):
 class Product:
     name: str
     price: int
+
+    def calculate_price(self, money):
+        return self.price * money
     # def __init__(self, name: str, price: int):
     #     self.name = name
     #     self.price = price
