@@ -9,5 +9,6 @@
             "artist": "Nirvana"
         }
     ],
-    "shuffle": false
+    "shuffle": false,
+    "example": 1
 }
