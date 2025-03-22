@@ -3,6 +3,16 @@ from copy import deepcopy
 import json
 import pickle
 
+'''
+{
+    'hello',
+    'add'
+}
+a
+
+fuzzy matching
+'''
+
 from song_classes import Song, Playlist, PlaylistIterator, ShuffleIterator
 '''
 Потрібно реалізувати програвач музики
