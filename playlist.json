@@ -1,0 +1,13 @@
+{
+    "songs": [
+        {
+            "title": "Thunderstruck",
+            "artist": "AC/DC"
+        },
+        {
+            "title": "Smells like teen spirit",
+            "artist": "Nirvana"
+        }
+    ],
+    "shuffle": false
+}
